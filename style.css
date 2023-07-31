@@ -1,0 +1,280 @@
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap);
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box ;
+    font-weight: 300;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.main-div{
+    background-image: url('questionbg.png');
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(206, 96%, 92%);
+}
+.inner-div{
+    width:40vw ;
+    background-color:#fff ;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+
+}
+
+.inner-div h2{
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 1rem 0 4rem 0;
+}
+
+.inner-div li{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+
+input{
+    cursor: pointer;
+}
+
+#submit, .btn{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-size: 400;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #74b9ff;
+    margin-top: 4rem;
+}
+
+#submit:hover {
+    background-color: #0984e3;
+}
+
+.scoreArea {
+    display: none;
+}
+
+.btn{
+    padding : 1rem 3rem;
+    outline: none;
+    font-size : 2rem;
+    font-size: 400;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #74b9ff;
+    margin-top: 4rem;
+}
+
+.btn:hover{
+    background-color: #0984e3;
+}
+/* ---------------------------login form--------------------------- */
+.error-pagewrap{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 300% 300%;
+    background-image: linear-gradient(
+          -45deg, 
+          rgba(59,173,227,1) 0%, 
+          rgba(87,111,230,1) 25%, 
+          rgba(152,68,183,1) 51%, 
+          rgba(255,53,127,1) 100%
+    );  
+    animation: AnimateBG 20s ease infinite;
+  }
+  
+  @keyframes AnimateBG { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+
+
+.error-page-int{
+    
+    min-height: 50vh;
+    display: grid;
+    place-items: center;    
+    width:40vw ;
+    background-color:#fff ;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.no-js{
+    font-size: 62.5%;
+}
+
+.login-form{
+    font-size: 350%;
+    min-height: 10vh;
+}
+
+/* .username{
+    font-size: 220%;
+    display: block;
+    padding: auto;
+    min-height: 5vh ;
+}
+
+.password{
+    font-size: 220%;
+    display: block;
+    padding: auto;
+    margin-top: 10px;
+} */
+.userlabels{
+    font-size: 100%;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+.userlabel{
+    margin-left: 48px;
+    font-size: 100%;   
+}
+.loginbtn{
+    display: block;
+    padding: 1rem 15rem;
+    border-radius: 20px;
+    margin-left: 2px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size : 2rem;
+    font-size: 400;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* width: 100%; */
+    /* height: 100vh; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-size: 300% 300%;
+    background-image: linear-gradient(
+          -45deg, 
+          rgba(59,173,227,1) 0%, 
+          rgba(87,111,230,1) 51%, 
+          rgba(152,68,183,1) 25%, 
+          rgba(255,53,127,1) 100%
+    );  
+    animation: AnimateBG 20s ease infinite;
+  }
+  
+  @keyframes AnimateBG { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.loginbtn:hover{
+    color: whitesmoke;
+    cursor: pointer;
+    background: #36454F;
+}
+.registerbtn{
+    padding: 13.6rem;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    font-size: 2rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-size: 300% 300%;
+    background-image: linear-gradient(
+          -45deg, 
+          rgba(59,173,227,1) 0%, 
+          rgba(87,111,230,1) 51%, 
+          rgba(152,68,183,1) 25%, 
+          rgba(255,53,127,1) 100%
+    );  
+    animation: AnimateBG 20s ease infinite;
+  }
+  
+  @keyframes AnimateBG { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.registerbtn:hover{
+    color: whitesmoke;
+    cursor: pointer;
+    background: #36454F;
+}
+
+/* -------------------registration form----------------------- */
+
+
+.panel-body{
+    font-size: 220%;
+    display: block;
+    padding: auto;
+    min-height: 5vh ;
+
+}
+
+.form-control{
+    font-size: 100%;
+    margin-left: 55px;
+    margin-bottom: 10px;
+
+}
+
+.form-firstname{
+    font-size: 100%;
+    margin-left: 56px;
+    margin-bottom: 10px;
+
+}
+.form-username{
+    font-size: 100%;
+    margin-left: 61px;
+    margin-bottom: 10px;
+
+}
+
+.form-password{
+    font-size: 100%;
+    margin-left: 68px;
+    margin-bottom: 10px;
+
+}
+
+.form-email{
+    font-size: 100%;
+    margin-left: 101px;
+    margin-bottom: 10px;
+
+}
+
+.form-contact{
+    font-size: 100%;
+    margin-left: 81px;
+    margin-bottom: 10px;
+    place-items: center;
+
+}
+
+
+
